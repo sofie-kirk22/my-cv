@@ -26,7 +26,7 @@ export default function BScCourses() {
     "Physical Computing",
   ];
 
-  const visibleCourses = expanded ? courses : courses.slice(0, 5);
+  const visibleCourses = expanded ? courses : courses.slice(0, 3);
 
   return (
     <div className="mt-4">
@@ -41,7 +41,7 @@ export default function BScCourses() {
         ))}
       </div>
 
-      {courses.length > 5 && (
+      {courses.length > 3 && (
         <button
           onClick={() => setExpanded(!expanded)}
           className="mt-4 text-sm font-medium text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white"
