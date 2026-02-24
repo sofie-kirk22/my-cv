@@ -83,6 +83,8 @@ export default function Projects() {
                                 "JavaScript",
                                 "API Integration",
                                 "AI",
+                                "HTML",
+                                "CSS",
                             ]}
                         />
 

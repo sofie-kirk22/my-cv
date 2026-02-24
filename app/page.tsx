@@ -69,7 +69,7 @@ export default function Home() {
         <Skills />
 
         {/* CONTACT 
-        <Contact />*/}
+        <Contact /> */}
 
         <BottomCTA />
 
