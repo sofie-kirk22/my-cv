@@ -15,7 +15,7 @@ const paragraphClass =
 
 export default function AboutSection({
   paragraphs,
-  title = "About",
+  title = "About me",
 }: AboutSectionProps) {
   return (
     <section id="about" className="space-y-4">

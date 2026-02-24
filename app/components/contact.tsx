@@ -45,6 +45,14 @@ export default function Contact() {
                     >
                         GitHub
                     </a>
+                    <a
+                        href="/Resumé_SofieKirkNielsen.pdf" download
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline hover:text-black dark:hover:text-white transition"
+                    >
+                        Download CV (PDF)
+                    </a>
                 </div>
             </div>
         </section>

@@ -1,7 +1,6 @@
 "use client";
 
-import BScCourses from "./bscCourses";
-import MScCourses from "./mscCourses";
+import TagList from "./tagList";
 
 export default function Education() {
     return (
@@ -21,7 +20,28 @@ export default function Education() {
                         <li>Conducted empirical research integrating user studies, data analysis, and system development</li>
                         <li>Strengthened interdisciplinary collaboration skills by working at the intersection of design, technology, and human behavior</li>
                     </ul>
-                    <MScCourses />
+                    
+                    <div className="pt-6">
+                        <h3 className="text-l font medium">
+                            Courses:
+                        </h3>
+                        <TagList
+                            items={[
+                                "Augmented Reality",
+                                "Advanced Augmented Reality Project",
+                                "Building the Internet of Things with P2P and Cloud Computing",
+                                "Designing Interactive Technologies",
+                                "Interactivity and Computer Mediation - Concepts, Theories, Methods, Cases",
+                                "Multimodal Interaction",
+                                "Information Visualization",
+                                "Algorithms in Bioinformatics",
+                                "Introductory Algebra",
+                                "Project Work in Computer Science",
+                            ]}
+                            collapsible
+                            initialVisible={3}
+                        />
+                    </div>
                 </div>
                 <div>
                     <h3 className="text-xl font-medium">
@@ -36,7 +56,30 @@ export default function Education() {
                         <li>Worked with operating systems, computer networks, and distributed systems</li>
                         <li>Participated in collaborative software projects using version control and agile methodologies</li>
                     </ul>
-                    <BScCourses />
+                    <TagList
+                        items={[
+                            "Algorithms and Data Structures",
+                            "Computability and Logic",
+                            "Computer Architecture, Networks and Operating Systems",
+                            "Database Systems",
+                            "Distributed Systems and Security",
+                            "Experimental System Development",
+                            "Philosophy of Science and Ethics: Computer Science and IT Product Development",
+                            "Human-Computer Interaction",
+                            "Implementation and Applications of Databases",
+                            "Introduction to Programming",
+                            "Optimization",
+                            "Compilation",
+                            "Programming Languages",
+                            "Software Construction and Software Architecture",
+                            "Introduction to Mathematics and Optimization",
+                            "Introduction to Probability Theory and Statistics",
+                            "Numerical Linear Algebra",
+                            "Physical Computing",
+                        ]}
+                        collapsible
+                        initialVisible={3}
+                    />
                 </div>
             </div>
         </section>

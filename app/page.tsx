@@ -5,6 +5,7 @@ import Projects from "./components/projects";
 import Education from "./components/education";
 import Experience from "./components/experience";
 import AboutSection from "./components/about";
+import BottomCTA from "./components/endBanner";
 
 const aboutParagraphs = [
   {
@@ -42,12 +43,18 @@ export default function Home() {
         {/* HERO */}
         <section className="space-y-6">
           <h2 className="text-3xl font-semibold">
-            Hi, my name is Sofie. Welcome to my resume-page
+            Hi, my name is Sofie.
+          </h2>
+          <h2 className="text-3xl font-semibold">
+            Say hi to your future Frontend or UX designer
           </h2>
           <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl">
             MSc in Computer Science | Frontend Developer | UI/UX Designer | Human-Computer Interaction | Digital Accessibility
           </p>
         </section>
+
+        {/* PROJECTS */}
+        <Projects />
 
         {/* ABOUT */}
         <AboutSection paragraphs={aboutParagraphs} />
@@ -58,14 +65,13 @@ export default function Home() {
         {/* EDUCATION */}
         <Education />
 
-        {/* PROJECTS */}
-        <Projects />
-
         {/* SKILLS */}
         <Skills />
 
-        {/* CONTACT */}
-        <Contact />
+        {/* CONTACT 
+        <Contact />*/}
+
+        <BottomCTA />
 
       </main>
     </div>

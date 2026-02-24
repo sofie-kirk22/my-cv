@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HeroBanner() {
     return (
-        <div className="relative flex h-64 w-full items-center overflow-hidden rounded-lg bg-gradient-to-r from-indigo-600 via-indigo-700 to-black px-8 md:h-80">
+        <div className="relative w-full overflow-hidden rounded-2xl bg-gradient-to-r from-black to-zinc-900 px-8 py-16 text-white">
 
             {/* Content */}
             <div className="relative z-10 grid items-center gap-10 md:grid-cols-[1fr_auto]">
@@ -25,7 +25,7 @@ export default function HeroBanner() {
                             View Projects
                         </a>
                         <a
-                            href="#contact"
+                            href="#endBanner"
                             className="rounded-full border border-white/30 px-5 py-2.5 text-sm font-medium text-white/95 transition hover:bg-white/10"
                         >
                             Contact
