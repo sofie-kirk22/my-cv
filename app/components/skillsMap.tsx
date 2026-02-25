@@ -33,6 +33,7 @@ function IconBackend() {
             width={24}
             height={24}
             priority
+            unoptimized
         />
     );
 }
