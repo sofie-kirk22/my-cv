@@ -9,14 +9,6 @@ type SkillCategory = {
     items: string[];
 };
 
-{/* type LoaderProps = {
-  src: string;
-};
-
-const imageLoader = ({ src }: LoaderProps) => {
-  return `https://sofie-kirk22.github.io/my-cv${src}`
-} */}
-
 function CircleIcon({ children }: { children: React.ReactNode }) {
     return (
         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">
@@ -28,7 +20,7 @@ function CircleIcon({ children }: { children: React.ReactNode }) {
 function IconBackend() {
     return (
         <Image
-            src="/coding.png"
+            src="/my-cv/coding.png"
             alt="Backend"
             width={24}
             height={24}
@@ -40,7 +32,7 @@ function IconBackend() {
 function IconFrontend() {
     return (
         <Image
-            src="/front-end-programming.png"
+            src="/my-cv/front-end-programming.png"
             alt="Frontend"
             width={24}
             height={24}
@@ -53,7 +45,7 @@ function IconFrontend() {
 function IconDesign() {
     return (
         <Image
-            src="/web-design.png"
+            src="/my-cv/web-design.png"
             alt="Design"
             width={24}
             height={24}
@@ -65,7 +57,7 @@ function IconDesign() {
 function IconAI() {
     return (
         <Image
-            src="/generative.png"
+            src="/my-cv/generative.png"
             alt="AI"
             width={24}
             height={24}
