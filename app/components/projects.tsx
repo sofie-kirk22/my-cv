@@ -66,7 +66,7 @@ export default function Projects() {
                     {/* Preview */}
                     <div className="overflow-hidden">
                         <img
-                            src="/MatchMuse_Frontpage_demo.png"
+                            src="/my-cv/MatchMuse_Frontpage_demo.png"
                             alt="MatchMuse application preview"
                             className="w-full h-[220px] object-cover transition duration-500 group-hover:scale-105"
                         />
