@@ -5,7 +5,13 @@ import TagList from "./tagList"
 export default function Experience() {
     return (
         <section id="experience" className="space-y-10">
-            <h2 className="text-3xl font-semibold">Experience</h2>
+            <div className="flex items-center gap-4">
+                <div className="text-xs font-semibold uppercase tracking-widest text-zinc-500">
+                    Experience
+                </div>
+                <div className="h-px flex-1 bg-zinc-200 dark:bg-zinc-800" />
+            </div>
+            {/* <h2 className="text-3xl font-semibold">Experience</h2> */}
 
             <div className="space-y-6">
                 <div>

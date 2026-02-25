@@ -5,7 +5,12 @@ import TagList from "./tagList";
 export default function Education() {
     return (
         <section id="experience" className="space-y-10">
-            <h2 className="text-3xl font-semibold">Education</h2>
+            <div className="flex items-center gap-4">
+                <div className="text-xs font-semibold uppercase tracking-widest text-zinc-500">
+                    Education
+                </div>
+                <div className="h-px flex-1 bg-zinc-200 dark:bg-zinc-800" />
+            </div>
 
             <div className="space-y-6">
                 <div>
@@ -20,7 +25,7 @@ export default function Education() {
                         <li>Conducted empirical research integrating user studies, data analysis, and system development</li>
                         <li>Strengthened interdisciplinary collaboration skills by working at the intersection of design, technology, and human behavior</li>
                     </ul>
-                    
+
                     <div className="pt-6">
                         <h3 className="text-l font medium">
                             Courses:
@@ -56,30 +61,35 @@ export default function Education() {
                         <li>Worked with operating systems, computer networks, and distributed systems</li>
                         <li>Participated in collaborative software projects using version control and agile methodologies</li>
                     </ul>
-                    <TagList
-                        items={[
-                            "Algorithms and Data Structures",
-                            "Computability and Logic",
-                            "Computer Architecture, Networks and Operating Systems",
-                            "Database Systems",
-                            "Distributed Systems and Security",
-                            "Experimental System Development",
-                            "Philosophy of Science and Ethics: Computer Science and IT Product Development",
-                            "Human-Computer Interaction",
-                            "Implementation and Applications of Databases",
-                            "Introduction to Programming",
-                            "Optimization",
-                            "Compilation",
-                            "Programming Languages",
-                            "Software Construction and Software Architecture",
-                            "Introduction to Mathematics and Optimization",
-                            "Introduction to Probability Theory and Statistics",
-                            "Numerical Linear Algebra",
-                            "Physical Computing",
-                        ]}
-                        collapsible
-                        initialVisible={3}
-                    />
+                    <div className="pt-6">
+                        <h3 className="text-l font medium">
+                            Courses:
+                        </h3>
+                        <TagList
+                            items={[
+                                "Algorithms and Data Structures",
+                                "Computability and Logic",
+                                "Computer Architecture, Networks and Operating Systems",
+                                "Database Systems",
+                                "Distributed Systems and Security",
+                                "Experimental System Development",
+                                "Philosophy of Science and Ethics: Computer Science and IT Product Development",
+                                "Human-Computer Interaction",
+                                "Implementation and Applications of Databases",
+                                "Introduction to Programming",
+                                "Optimization",
+                                "Compilation",
+                                "Programming Languages",
+                                "Software Construction and Software Architecture",
+                                "Introduction to Mathematics and Optimization",
+                                "Introduction to Probability Theory and Statistics",
+                                "Numerical Linear Algebra",
+                                "Physical Computing",
+                            ]}
+                            collapsible
+                            initialVisible={3}
+                        />
+                    </div>
                 </div>
             </div>
         </section>

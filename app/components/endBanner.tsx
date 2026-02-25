@@ -28,7 +28,7 @@ export default function BottomCTA() {
                 </a>
 
                 <a
-                    href="/Sofie-Kirk-Nielsen-CV.pdf"
+                    href="/Resumé_SofieKirkNielsen.pdf"
                     download
                     className="rounded-full border border-white/30 px-6 py-3 text-sm font-medium transition hover:bg-white/10"
                 >

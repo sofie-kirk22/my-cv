@@ -5,7 +5,12 @@ import TagList from "./tagList";
 export default function Projects() {
     return (
         <section id="projects" className="space-y-10">
-            <h2 className="text-3xl font-semibold">Projects</h2>
+            <div className="flex items-center gap-4">
+                <div className="text-xs font-semibold uppercase tracking-widest text-zinc-500">
+                    Projects
+                </div>
+                <div className="h-px flex-1 bg-zinc-200 dark:bg-zinc-800" />
+            </div>
 
             <div className="grid gap-8 md:grid-cols-2">
 

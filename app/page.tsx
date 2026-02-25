@@ -6,6 +6,7 @@ import Education from "./components/education";
 import Experience from "./components/experience";
 import AboutSection from "./components/about";
 import BottomCTA from "./components/endBanner";
+import SkillsMap from "./components/skillsMap";
 
 const aboutParagraphs = [
   {
@@ -53,11 +54,15 @@ export default function Home() {
           </p>
         </section>
 
+        {/* ABOUT */}
+        <AboutSection paragraphs={aboutParagraphs} />
+
         {/* PROJECTS */}
         <Projects />
 
-        {/* ABOUT */}
-        <AboutSection paragraphs={aboutParagraphs} />
+        {/* SKILLS 
+        <Skills /> */}
+        <SkillsMap />
 
         {/* EXPERIENCE */}
         <Experience />
@@ -65,13 +70,25 @@ export default function Home() {
         {/* EDUCATION */}
         <Education />
 
-        {/* SKILLS */}
-        <Skills />
-
         {/* CONTACT 
         <Contact /> */}
 
         <BottomCTA />
+
+        <div className="mt-3 list-disc space-y-2 pl-6 text-zinc-600 dark:text-zinc-400">
+          Icons made by
+          <a href="https://www.freepik.com" title="Freepik">
+            {" " + "Freepik" + " "}
+          </a>
+          &
+          <a href="" title="LAFS">
+            {" " + "LAFS" + " "}
+          </a>
+          from
+          <a href="https://www.flaticon.com/" title="Flaticon">
+            {" " + "www.flaticon.com"}
+          </a>
+        </div>
 
       </main>
     </div>
