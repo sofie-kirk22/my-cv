@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Icon from "./icon";
 
 export default function BottomCTA() {
     return (
@@ -44,13 +44,7 @@ export default function BottomCTA() {
                     aria-label="LinkedIn"
                     className="opacity-70 hover:opacity-100 transition duration-200"
                 >
-                    <Image
-                        src="/my-cv/Linkedin_White.png"
-                        alt="LinkedIn"
-                        width={24}
-                        height={24}
-                        priority
-                    />
+                    <Icon src="/my-cv/Linkedin_White.png" alt="LinkedIn" />
                 </a>
 
                 <a
@@ -60,13 +54,7 @@ export default function BottomCTA() {
                     className="text-zinc-400 hover:text-white transition"
                     aria-label="GitHub"
                 >
-                    <Image
-                        src="/my-cv/GitHub_White.png"
-                        alt="GitHub"
-                        width={24}
-                        height={24}
-                        priority
-                    />
+                    <Icon src="/my-cv/GitHub_White.png" alt="GitHub" />
                 </a>
             </div>
         </section>

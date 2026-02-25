@@ -1,7 +1,7 @@
 "use client";
 
 import TagList from "./tagList";
-import Image from "next/image";
+import Icon from "./icon";
 
 type SkillCategory = {
     title: string;
@@ -17,75 +17,26 @@ function CircleIcon({ children }: { children: React.ReactNode }) {
     );
 }
 
-function IconBackend() {
-    return (
-        <Image
-            src="/my-cv/coding.png"
-            alt="Backend"
-            width={24}
-            height={24}
-            priority
-        />
-    );
-}
-
-function IconFrontend() {
-    return (
-        <Image
-            src="/my-cv/front-end-programming.png"
-            alt="Frontend"
-            width={24}
-            height={24}
-            priority
-        />
-    );
-}
-
-
-function IconDesign() {
-    return (
-        <Image
-            src="/my-cv/web-design.png"
-            alt="Design"
-            width={24}
-            height={24}
-            priority
-        />
-    );
-}
-
-function IconAI() {
-    return (
-        <Image
-            src="/my-cv/generative.png"
-            alt="AI"
-            width={24}
-            height={24}
-            priority
-        />
-    );
-}
-
 export default function SkillsMap() {
     const categories: SkillCategory[] = [
         {
             title: "Frontend",
-            icon: <IconFrontend />,
+            icon: <Icon src="/my-cv/front-end-programming.png" alt="Frontend" />,
             items: ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "TypeScript"],
         },
         {
             title: "Backend",
-            icon: <IconBackend />,
+            icon: <Icon src="/my-cv/coding.png" alt="Backend" />,
             items: ["Node.js", "Java", "C#", "Python", "API Integration"],
         },
         {
             title: "Design & UX",
-            icon: <IconDesign />,
+            icon: <Icon src="/my-cv/web-design.png" alt="Design" />,
             items: ["Figma", "User-Centered Design", "Prototyping", "Interaction Design", "Web Design"],
         },
         {
             title: "AI & Data",
-            icon: <IconAI />,
+            icon: <Icon src="/my-cv/generative.png" alt="AI" />,
             items: ["AI / RAG", "Data Cleaning", "JSON"],
         },
     ];
