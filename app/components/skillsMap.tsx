@@ -1,7 +1,7 @@
 "use client";
 
 import TagList from "./tagList";
-import Icon from "./icon";
+import Icon from "./icons";
 
 type SkillCategory = {
     title: string;

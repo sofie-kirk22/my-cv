@@ -1,5 +1,5 @@
 "use client";
-import Icon from "./icon";
+import Icon from "./icons";
 
 export default function BottomCTA() {
     return (
