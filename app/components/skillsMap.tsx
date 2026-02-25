@@ -1,3 +1,5 @@
+"use client";
+
 import TagList from "./tagList";
 import Image from "next/image";
 
@@ -6,6 +8,14 @@ type SkillCategory = {
     icon: React.ReactNode;
     items: string[];
 };
+
+type LoaderProps = {
+  src: string;
+};
+
+const imageLoader = ({ src }: LoaderProps) => {
+  return `https://sofie-kirk22.github.io/my-cv${src}`
+}
 
 function CircleIcon({ children }: { children: React.ReactNode }) {
     return (
@@ -18,6 +28,7 @@ function CircleIcon({ children }: { children: React.ReactNode }) {
 function IconBackend() {
     return (
         <Image
+            loader={imageLoader}
             src="/coding.png"
             alt="Backend"
             width={24}
