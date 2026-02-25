@@ -45,7 +45,7 @@ export default function BottomCTA() {
                     className="opacity-70 hover:opacity-100 transition duration-200"
                 >
                     <Image
-                        src="/Linkedin_White.png"
+                        src="my-cv/Linkedin_White.png"
                         alt="LinkedIn"
                         width={24}
                         height={24}
@@ -61,7 +61,7 @@ export default function BottomCTA() {
                     aria-label="GitHub"
                 >
                     <Image
-                        src="/GitHub_White.png"
+                        src="my-cv/GitHub_White.png"
                         alt="GitHub"
                         width={24}
                         height={24}
