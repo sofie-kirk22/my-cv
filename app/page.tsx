@@ -1,6 +1,4 @@
 import HeroBanner from "./components/heroBanner";
-import Contact from "./components/contact";
-import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Education from "./components/education";
 import Experience from "./components/experience";
@@ -60,8 +58,7 @@ export default function Home() {
         {/* PROJECTS */}
         <Projects />
 
-        {/* SKILLS 
-        <Skills /> */}
+        {/* SKILLS */}
         <SkillsMap />
 
         {/* EXPERIENCE */}
@@ -70,8 +67,7 @@ export default function Home() {
         {/* EDUCATION */}
         <Education />
 
-        {/* CONTACT 
-        <Contact /> */}
+        {/* CONTACT */}
 
         <BottomCTA />
 
