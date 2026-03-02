@@ -42,7 +42,7 @@ export default function AcademicWork() {
 
 
                 {/* INFOVIS PROJECT */}
-                <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden">
+                <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:border-zinc-800 dark:hover:border-white">
                     <CardPreview
                         type="iframe"
                         src="/my-cv/InfoVis_Project.pdf"
