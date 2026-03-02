@@ -1,26 +1,43 @@
 import TagList from "./tagList";
 
-type CardBodyProps = {
-  title: string;
-  description: string;
-  tags?: string[];
-  cta: string;
+type CTA = {
+    label: string;
+    href: string;
 };
 
-export default function CardBody({ title, description, tags, cta }: CardBodyProps) {
-  return (
-    <div className="p-6">
-      <h3 className="text-lg font-medium">{title}</h3>
+type CardBodyProps = {
+    title: string;
+    description: string;
+    tags?: string[];
+    ctas?: CTA[];
+};
 
-      <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        {description}
-      </p>
+export default function CardBody({ title, description, tags, ctas }: CardBodyProps) {
+    return (
+        <div className="p-6">
+            <h3 className="text-lg font-medium">{title}</h3>
 
-      {tags && tags.length > 0 && <TagList items={tags} />}
+            <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+                {description}
+            </p>
 
-      <span className="mt-4 inline-block text-sm font-medium underline transition group-hover:translate-x-1">
-        {cta} →
-      </span>
-    </div>
-  );
+            {tags && tags.length > 0 && <TagList items={tags} />}
+
+            {ctas && (
+                <div className="mt-6 flex flex-col gap-3">
+                    {ctas.map((cta) => (
+                        <a
+                            key={cta.href}
+                            href={cta.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm font-medium underline transition hover:translate-x-1"
+                        >
+                            {cta.label} →
+                        </a>
+                    ))}
+                </div>
+            )}
+        </div>
+    );
 }

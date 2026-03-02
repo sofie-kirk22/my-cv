@@ -28,7 +28,12 @@ export default function Projects() {
                             "UX Thinking",
                             "AI Image Generation"
                         ]}
-                        cta={"View in Figma"}
+                        ctas={[
+                            {
+                                label: "View in Figma",
+                                href: "https://www.figma.com/proto/rxt5m7OykqTLItxoOuWfyQ/MatchMuse?node-id=0-1&t=jv2a5MyN4Q3FtVhp-1"
+                            }
+                        ]}
                     />
                 </CardLink>
 
@@ -51,7 +56,12 @@ export default function Projects() {
                             "HTML",
                             "CSS"
                         ]}
-                        cta={"View on GitHub"}
+                        ctas={[
+                            {
+                                label: "View on GitHub",
+                                href: "https://github.com/sofie-kirk22/DigitalWardrobe/tree/main"
+                            }
+                        ]}
                     />
                 </CardLink>
             </div>

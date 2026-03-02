@@ -31,9 +31,48 @@ export default function AcademicWork() {
                             "HCI",
                             "Artifact Ecologies"
                         ]}
-                        cta={"Download PDF"}
+                        ctas={[
+                            {
+                                label: "Download PDF",
+                                href: "/my-cv/Speciale_2025_Sofie_Kirk_Nielsen.pdf"
+                            }
+                        ]}
                     />
                 </CardLink>
+
+
+                {/* INFOVIS PROJECT */}
+                <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden">
+                    <CardPreview
+                        type="iframe"
+                        src="/my-cv/InfoVis_Project.pdf"
+                        title="InfoVis"
+                    />
+
+                    <CardBody
+                        title="Steamy Vampires and a Dirty Dataset"
+                        description="Built an interactive node-link visualization to explore fantasy sub-genres within a large Goodreads dataset, evaluating design trade-offs and future improvements."
+                        tags={[
+                            "D3.js",
+                            "Network Visualization",
+                            "Data Cleaning",
+                            "Interactive UX",
+                            "Clustering",
+                            "JSON Processing",
+                            "Information Visualization"
+                        ]}
+                        ctas={[
+                            {
+                                label: "View on GitHub",
+                                href: "https://github.com/hankaspac/info_vis"
+                            },
+                            {
+                                label: "Download PDF",
+                                href: "/my-cv/InfoVis_Project.pdf"
+                            }
+                        ]}
+                    />
+                </div>
             </div>
         </section>
     )
