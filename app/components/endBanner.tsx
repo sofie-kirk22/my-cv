@@ -46,7 +46,7 @@ export default function BottomCTA() {
                 </a>
 
                 <a
-                    href="/my-cv/Resumé_SofieKirkNielsen.pdf"
+                    href="/my-cv/Resume_SofieKirkNielsen.pdf"
                     download
                     className="
                         rounded-full border px-6 py-3 text-sm font-medium transition
