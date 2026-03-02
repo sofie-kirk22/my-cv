@@ -21,22 +21,22 @@ export default function SkillsMap() {
     const categories: SkillCategory[] = [
         {
             title: "Frontend",
-            icon: <Icon src="/my-cv/front-end-programming.png" alt="Frontend" />,
+            icon: <Icon darkSrc="/my-cv/front-end-programming.png" alt="Frontend" lightSrc="/my-cv/front-end-programming_black.png" />,
             items: ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "TypeScript"],
         },
         {
             title: "Backend",
-            icon: <Icon src="/my-cv/coding.png" alt="Backend" />,
+            icon: <Icon darkSrc="/my-cv/coding.png" alt="Backend" lightSrc="/my-cv/coding_black.png" />,
             items: ["Node.js", "Java", "C#", "Python", "API Integration"],
         },
         {
             title: "Design & UX",
-            icon: <Icon src="/my-cv/web-design.png" alt="Design" />,
+            icon: <Icon darkSrc="/my-cv/web-design.png" alt="Design" lightSrc="/my-cv/web-design_black.png" />,
             items: ["Figma", "User-Centered Design", "Prototyping", "Interaction Design", "Web Design"],
         },
         {
             title: "AI & Data",
-            icon: <Icon src="/my-cv/generative.png" alt="AI" />,
+            icon: <Icon darkSrc="/my-cv/generative.png" alt="AI" lightSrc="/my-cv/generative_black.png" />,
             items: ["AI / RAG", "Data Cleaning", "JSON"],
         },
     ];

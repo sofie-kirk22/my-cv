@@ -53,7 +53,7 @@ export default function BottomCTA() {
                     aria-label="LinkedIn"
                     className="opacity-70 hover:opacity-100 transition duration-200"
                 >
-                    <Icon src="/my-cv/Linkedin_White.png" alt="LinkedIn" />
+                    <Icon darkSrc="/my-cv/Linkedin_White.png" alt="LinkedIn" lightSrc="/my-cv/Linkedin_Black.png" />
                 </a>
 
                 <a
@@ -63,7 +63,7 @@ export default function BottomCTA() {
                     className="text-zinc-400 hover:text-white transition"
                     aria-label="GitHub"
                 >
-                    <Icon src="/my-cv/GitHub_White.png" alt="GitHub" />
+                    <Icon darkSrc="/my-cv/GitHub_White.png" alt="GitHub" lightSrc="/my-cv/GitHub_Black.png" />
                 </a>
             </div>
         </section>
