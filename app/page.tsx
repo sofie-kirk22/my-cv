@@ -7,6 +7,7 @@ import BottomCTA from "./components/endBanner";
 import SkillsMap from "./components/skillsMap";
 import Volunteering from "./components/volunteering";
 import CopyrightFooter from "./components/copyrightFooter";
+import AcademicWork from "./components/academicWork";
 
 const aboutParagraphs = [
   {
@@ -59,6 +60,9 @@ export default function Home() {
 
         {/* PROJECTS */}
         <Projects />
+
+        {/* ACADEMIC WORK */}
+        <AcademicWork />
 
         {/* SKILLS */}
         <SkillsMap />
