@@ -5,6 +5,7 @@ import Experience from "./components/experience";
 import AboutSection from "./components/about";
 import BottomCTA from "./components/endBanner";
 import SkillsMap from "./components/skillsMap";
+import Volunteering from "./components/volunteering";
 
 const aboutParagraphs = [
   {
@@ -66,6 +67,9 @@ export default function Home() {
 
         {/* EDUCATION */}
         <Education />
+
+        {/* VOLUNTEERING */}
+        <Volunteering />
 
         {/* CONTACT */}
 

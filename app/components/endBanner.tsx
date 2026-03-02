@@ -3,12 +3,21 @@ import Icon from "./icons";
 
 export default function BottomCTA() {
     return (
-        <section id="endBanner" className="relative mt-24 rounded-2xl bg-gradient-to-r from-black to-zinc-900 px-8 py-16 text-center text-white">
+        <section id="endBanner" className="
+            relative mt-24 rounded-2xl 
+            bg-gradient-to-r from-black to-zinc-900 
+            [@media(prefers-color-scheme:light)]:bg-gradient-to-r
+            [@media(prefers-color-scheme:light)]:from-pink-300
+            [@media(prefers-color-scheme:light)]:to-rose-100
+            [@media(prefers-color-scheme:light)]:text-black
+            px-8 py-16 
+            text-center 
+            text-white">
             <h2 className="text-3xl font-semibold">
                 Let’s build something meaningful.
             </h2>
 
-            <p className="mt-4 text-zinc-300 max-w-2xl mx-auto">
+            <p className="mt-4 text-zinc-300 max-w-2xl mx-auto [@media(prefers-color-scheme:light)]:text-black/70">
                 I’m currently open to opportunities in Frontend development, UX design, UI design and interaction design.
             </p>
 
@@ -22,7 +31,7 @@ export default function BottomCTA() {
 
                 <a
                     href="tel:+4521355029"
-                    className="rounded-full border border-white/30 px-6 py-3 text-sm font-medium transition hover:bg-white/10"
+                    className="rounded-full border border-white/30 px-6 py-3 text-sm font-medium transition hover:bg-white/10 [@media(prefers-color-scheme:light)]:border-black/30"
                 >
                     Call Me
                 </a>
@@ -30,7 +39,7 @@ export default function BottomCTA() {
                 <a
                     href="/Resumé_SofieKirkNielsen.pdf"
                     download
-                    className="rounded-full border border-white/30 px-6 py-3 text-sm font-medium transition hover:bg-white/10"
+                    className="rounded-full border border-white/30 px-6 py-3 text-sm font-medium transition hover:bg-white/10 [@media(prefers-color-scheme:light)]:border-black/30"
                 >
                     Download CV
                 </a>
