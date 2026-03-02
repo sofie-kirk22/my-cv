@@ -6,7 +6,7 @@ import SectionHeader from "./sectionHeader";
 export default function Volunteering() {
     return (
         <section id="volenteering" className="space-y-10">
-            <SectionHeader label={"Volunterring"} />
+            <SectionHeader label={"Volunteering"} />
 
             <div className="space-y-6">
                 <TimelineItem
