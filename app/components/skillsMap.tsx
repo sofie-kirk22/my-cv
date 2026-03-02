@@ -27,17 +27,17 @@ export default function SkillsMap() {
         {
             title: "Backend",
             icon: <Icon darkSrc="/my-cv/coding.png" alt="Backend" lightSrc="/my-cv/coding_black.png" />,
-            items: ["Node.js", "Java", "C#", "Python", "API Integration"],
+            items: ["Node.js", "Java", "C#", "Python", "API Integration", "System Design", "Software Development"],
         },
         {
             title: "Design & UX",
             icon: <Icon darkSrc="/my-cv/web-design.png" alt="Design" lightSrc="/my-cv/web-design_black.png" />,
-            items: ["Figma", "User-Centered Design", "Prototyping", "Interaction Design", "Web Design"],
+            items: ["Figma", "Canva", "User-Centered Design", "Prototyping", "Interaction Design", "Web Design", "Communication & Presentation"],
         },
         {
             title: "AI & Data",
             icon: <Icon darkSrc="/my-cv/generative.png" alt="AI" lightSrc="/my-cv/generative_black.png" />,
-            items: ["AI / RAG", "Data Cleaning", "JSON"],
+            items: ["AI / RAG", "Data Cleaning", "JSON", "Prompt Engineering", "Data Processing"],
         },
     ];
 
