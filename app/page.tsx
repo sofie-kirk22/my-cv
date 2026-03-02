@@ -6,6 +6,7 @@ import AboutSection from "./components/about";
 import BottomCTA from "./components/endBanner";
 import SkillsMap from "./components/skillsMap";
 import Volunteering from "./components/volunteering";
+import CopyrightFooter from "./components/copyrightFooter";
 
 const aboutParagraphs = [
   {
@@ -72,23 +73,10 @@ export default function Home() {
         <Volunteering />
 
         {/* CONTACT */}
-
         <BottomCTA />
 
-        <div className="mt-3 list-disc space-y-2 pl-6 text-zinc-600 dark:text-zinc-400">
-          Icons made by
-          <a href="https://www.freepik.com" title="Freepik">
-            {" " + "Freepik" + " "}
-          </a>
-          &
-          <a href="" title="LAFS">
-            {" " + "LAFS" + " "}
-          </a>
-          from
-          <a href="https://www.flaticon.com/" title="Flaticon">
-            {" " + "www.flaticon.com"}
-          </a>
-        </div>
+        {/* FOOTER */}
+        <CopyrightFooter />
 
       </main>
     </div>
