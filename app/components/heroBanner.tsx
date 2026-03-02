@@ -42,6 +42,17 @@ export default function HeroBanner() {
                         >
                             Contact
                         </a>
+                        <a
+                            href="/my-cv/Resume_SofieKirkNielsen.pdf"
+                            download
+                            className="
+                                rounded-full px-5 py-2.5 text-sm font-medium transition
+                                border border-black/30 text-black hover:bg-black/5
+                                dark:border-white/30 dark:text-white/95 dark:hover:bg-white/10
+                            "
+                        >
+                            Download CV
+                        </a>
                     </div>
                 </div>
 
