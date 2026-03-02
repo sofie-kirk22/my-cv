@@ -22,6 +22,9 @@ export default function BottomCTA() {
             <p className="mt-4 max-w-2xl mx-auto text-black/70 dark:text-zinc-300">
                 I’m currently open to opportunities in Frontend development, UX design, UI design and interaction design.
             </p>
+            <p className="mt-4 max-w-2xl mx-auto text-black/70 dark:text-zinc-300">
+                Can you see me in any other role with the scills I have, I am open to explore.
+            </p>
 
             <div className="mt-8 flex justify-center gap-4 flex-wrap">
                 <a
