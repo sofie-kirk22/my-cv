@@ -1,16 +1,12 @@
 "use client";
 
 import TimelineItem from "./timelineItem";
+import SectionHeader from "./sectionHeader";
 
 export default function Education() {
     return (
         <section id="experience" className="space-y-10">
-            <div className="flex items-center gap-4">
-                <div className="text-xs font-semibold uppercase tracking-widest text-zinc-500">
-                    Education
-                </div>
-                <div className="h-px flex-1 bg-zinc-200 dark:bg-zinc-800" />
-            </div>
+            <SectionHeader label={"Education"} />
 
             <div className="space-y-6">
                 <TimelineItem

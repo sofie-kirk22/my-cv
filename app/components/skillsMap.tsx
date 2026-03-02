@@ -2,6 +2,7 @@
 
 import TagList from "./tagList";
 import Icon from "./icons";
+import SectionHeader from "./sectionHeader";
 
 type SkillCategory = {
     title: string;
@@ -48,12 +49,7 @@ export default function SkillsMap() {
 
     return (
         <section id="skills" className="space-y-10">
-            <div className="flex items-center gap-4">
-                <div className="text-xs font-semibold uppercase tracking-widest text-zinc-500">
-                    Core Skills <span className="text-zinc-700 dark:text-zinc-400">|</span> Tools
-                </div>
-                <div className="h-px flex-1 bg-zinc-200 dark:bg-zinc-800" />
-            </div>
+            <SectionHeader label={"Core Skills | Tools"} />
 
             {/* Categories */}
             <div className="grid gap-8 md:grid-cols-2">
