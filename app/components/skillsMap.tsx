@@ -11,7 +11,12 @@ type SkillCategory = {
 
 function CircleIcon({ children }: { children: React.ReactNode }) {
     return (
-        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">
+        <div className="
+            flex h-12 w-12 items-center justify-center rounded-full
+            bg-black/5 ring-1 ring-black/5 backdrop-blur-sm
+            dark:bg-white/10 dark:ring-white/15
+        "
+        >
             {children}
         </div>
     );
