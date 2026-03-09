@@ -11,6 +11,36 @@ export default function AcademicWork() {
 
   const projects = [
     {
+      key: "iot",
+      content: (
+        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white">
+          <CardPreview
+            type="image"
+            src="/my-cv/IoT_image.png"
+            alt="IoT_proj"
+          />
+          <CardBody
+            title="OCCUPANCY DETECTION OF STUDY SPACES"
+            description="Built an IoT system that detects occupancy in campus study spaces and visualizes real-time availability through a web interface to help students find free study areas."
+            tags={[
+              "IoT",
+              "P2P",
+              "Sensor Integration",
+              "Real-Time Data Systems",
+              "Web Application Development",
+              "System Architecture",
+            ]}
+            ctas={[
+              {
+                label: "Download PDF",
+                href: "/my-cv/IoT_project.pdf",
+              },
+            ]}
+          />
+        </div>
+      ),
+    },
+    {
       key: "ar",
       content: (
         <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white">
@@ -35,36 +65,6 @@ export default function AcademicWork() {
               {
                 label: "Download PDF",
                 href: "/my-cv/AugmentedReality_project.pdf",
-              },
-            ]}
-          />
-        </div>
-      ),
-    },
-    {
-      key: "iot",
-      content: (
-        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white">
-          <CardPreview
-            type="image"
-            src="/my-cv/IoT_image.png"
-            alt="IoT_proj"
-          />
-          <CardBody
-            title="OCCUPANCY DETECTION OF STUDY SPACES"
-            description="Built an IoT system that detects occupancy in campus study spaces and visualizes real-time availability through a web interface to help students find free study areas."
-            tags={[
-              "IoT",
-              "P2P",
-              "Sensor Integration",
-              "Real-Time Data Systems",
-              "Web Application Development",
-              "System Architecture",
-            ]}
-            ctas={[
-              {
-                label: "Download PDF",
-                href: "/my-cv/IoT_project.pdf",
               },
             ]}
           />
