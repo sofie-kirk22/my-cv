@@ -33,7 +33,7 @@ export default function SkillsMap() {
         {
             title: "Backend",
             icon: <Icon darkSrc="/my-cv/coding.png" alt="Backend" lightSrc="/my-cv/coding_black.png" />,
-            items: ["Node.js", "Java", "C#", "Python", "API Integration", "System Design", "Software Development", "SQL"],
+            items: ["Node.js", "Java", "C#", "Python", "API Integration", "System Design", "Software Development", "SQL", "Git", "GitLab", "GitHub"],
         },
         {
             title: "Design & UX",
