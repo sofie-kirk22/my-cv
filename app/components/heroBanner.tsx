@@ -60,7 +60,7 @@ export default function HeroBanner() {
                 <div className="justify-self-start md:justify-self-end">
                     <div className="relative h-36 w-36 overflow-hidden rounded-full ring-2 ring-white/25 md:h-44 md:w-44">
                         <Image
-                            src="/my-cv/Sofie_profile2.png"
+                            src="/my-cv/Sofie_profile2.PNG"
                             alt="Portrait of Sofie Kirk Nielsen"
                             fill
                             className="object-cover"
