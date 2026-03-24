@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HeroBanner() {
     return (
-        <div className="
+        <div id="heroBanner" className="
             relative w-full overflow-hidden rounded-2xl 
             bg-gradient-to-r from-pink-300 to-rose-100
             text-black

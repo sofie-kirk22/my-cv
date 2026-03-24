@@ -60,7 +60,7 @@ export default function BottomCTA() {
             {/* Bottom Right Social Icons */}
             <div className="absolute bottom-6 left-6 flex gap-4">
                 <a
-                    href="https://www.linkedin.com/in/sofie-nielsen-b0aa80231/"
+                    href="https://www.linkedin.com/in/sofie-kirk-nielsen/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
