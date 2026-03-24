@@ -56,7 +56,7 @@ export default function SkillsMap() {
                 {categories.map((cat) => (
                     <div
                         key={cat.title}
-                        className="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800"
+                        className="rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800 shadow-md"
                     >
                         <div className="flex items-center gap-4">
                             <CircleIcon>

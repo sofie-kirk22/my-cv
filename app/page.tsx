@@ -40,7 +40,7 @@ const aboutParagraphs = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-zinc-50 text-zinc-900 dark:bg-black dark:text-zinc-100">
+    <div className="min-h-screen bg-rose-50 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100">
       <TopNav />
       <main className="mx-auto max-w-4xl px-6 py-24 space-y-32">
         <HeroBanner />
