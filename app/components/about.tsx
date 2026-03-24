@@ -18,8 +18,9 @@ export default function AboutSection({
   title = "About me",
 }: AboutSectionProps) {
   return (
-    <section id="about" className="space-y-4">
+    <section id="about" className="space-y-4 text-center">
       <h2 className="text-3xl font-semibold">{title}</h2>
+      <div className="h-px w-full bg-zinc-200 dark:bg-zinc-800" />
 
       {paragraphs.map(({ id, text }) => (
         <p key={id} className={paragraphClass}>
