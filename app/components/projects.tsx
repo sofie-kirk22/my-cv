@@ -37,6 +37,40 @@ export default function Projects() {
                     />
                 </CardLink>
 
+                {/* WEBPAGE */}
+                <CardLink href={"https://match-muse-next-c652.vercel.app/"}>
+                    <CardPreview
+                        type="gallery"
+                        images={[
+                            "/my-cv/MatchMuse_generated_1.png",
+                            "/my-cv/MatchMuse_generated_2.png",
+                            "/my-cv/MatchMuse_generated_3.png",
+                            "/my-cv/MatchMuse_Frontpage_Next.png",
+                        ]}
+                        alt="MatchMuse generated outfit gallery"
+                    />
+                    <CardBody
+                        title={"MatchMuse – Full Stack Implementation"}
+                        description={
+                            "Full-stack application analyzing color, style, and context to generate cohesive outfit suggestions using AI-powered image generation."
+                        }
+                        tags={[
+                            "TypeScript",
+                            "React",
+                            "NextJS",
+                            "Tailwind",
+                            "API Integration",
+                            "AI",
+                        ]}
+                        ctas={[
+                            {
+                                label: "Visit Webpage",
+                                href: "https://match-muse-next-c652.vercel.app/",
+                            },
+                        ]}
+                    />
+                </CardLink>
+
 
                 {/* GITHUB REPOSITORY */}
                 <CardLink href={"https://github.com/sofie-kirk22/DigitalWardrobe/tree/main"}>
