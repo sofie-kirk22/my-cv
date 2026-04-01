@@ -13,7 +13,7 @@ export default function AcademicWork() {
     {
       key: "iot",
       content: (
-        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white shadow-md">
+        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white shadow-lg">
           <CardPreview
             type="image"
             src="/my-cv/IoT_image.png"
@@ -43,7 +43,7 @@ export default function AcademicWork() {
     {
       key: "ar",
       content: (
-        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white shadow-md">
+        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white shadow-lg">
           <CardPreview
             type="image"
             src="/my-cv/AR_image2.png"
@@ -105,7 +105,7 @@ export default function AcademicWork() {
     {
       key: "infovis",
       content: (
-        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white shadow-md">
+        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white shadow-lg">
           <CardPreview
             type="iframe"
             src="/my-cv/InfoVis_Project.pdf"
@@ -140,7 +140,7 @@ export default function AcademicWork() {
     {
       key: "multimodal",
       content: (
-        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white shadow-md">
+        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white shadow-lg">
           <CardPreview
             type="image"
             src="/my-cv/MM_image.png"
@@ -169,7 +169,7 @@ export default function AcademicWork() {
     {
       key: "physcomp",
       content: (
-        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white shadow-md">
+        <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden transition hover:border-black dark:hover:border-white shadow-lg">
           <CardPreview
             type="image"
             src="/my-cv/PhysComp_image.jpeg"
