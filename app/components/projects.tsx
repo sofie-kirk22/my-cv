@@ -52,7 +52,7 @@ export default function Projects() {
                     <CardBody
                         title={"MatchMuse – Full Stack Implementation"}
                         description={
-                            "Full-stack application analyzing color, style, and context to generate cohesive outfit suggestions using AI-powered image generation."
+                            "Full-stack application analyzing color, style, and context to generate cohesive outfit suggestions using OpenAI image generation."
                         }
                         tags={[
                             "TypeScript",
@@ -61,6 +61,7 @@ export default function Projects() {
                             "Tailwind",
                             "API Integration",
                             "AI",
+                            "PostgreSQL",
                         ]}
                         ctas={[
                             {
