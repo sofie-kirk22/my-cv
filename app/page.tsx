@@ -50,10 +50,10 @@ export default function Home() {
             Hi, my name is Sofie.
           </h2>
           <h2 className="text-3xl font-semibold">
-            Say hi to your future Frontend or UX designer
+            Say hi to your future Full-Stack Developer or UX Designer
           </h2>
           <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl">
-            MSc in Computer Science | Frontend Developer | UI/UX Designer | Human-Computer Interaction | Digital Accessibility
+            MSc in Computer Science | Full-Stack Developer | UI/UX Designer | Human-Computer Interaction | Digital Accessibility
           </p>
         </section>
 

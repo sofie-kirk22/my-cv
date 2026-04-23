@@ -21,7 +21,7 @@ export default function HeroBanner() {
                         Sofie Kirk Nielsen
                     </h1>
                     <p className="mt-3 max-w-2xl text-lg text-black/70 dark:text-zinc-300 md:text-xl">
-                        Frontend Developer | UX/UI-Focused Engineer & Designer
+                        Full-Stack Developer | UX/UI-Focused Engineer & Designer
                     </p>
 
                     <div className="mt-6 flex flex-wrap gap-3">
