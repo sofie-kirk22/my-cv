@@ -68,6 +68,10 @@ export default function Projects() {
                                 label: "Visit Webpage",
                                 href: "https://match-muse-next-c652.vercel.app/",
                             },
+                            {
+                                label:"Visit GitHub",
+                                href:"https://github.com/sofie-kirk22/MatchMuse-next/",
+                            }
                         ]}
                     />
                 </CardLink>
@@ -81,8 +85,8 @@ export default function Projects() {
                         alt="MatchMuse application preview"
                     />
                     <CardBody
-                        title={"MatchMuse – Full Stack Implementation"}
-                        description={"Full-stack application analyzing color, style, and context to generate cohesive outfit suggestions using AI-powered image generation."}
+                        title={"MatchMuse – Early Implementation"}
+                        description={"Early TypeScript & JavaScript application analyzing color, style, and context to generate cohesive outfit suggestions using AI-powered image generation."}
                         tags={[
                             "TypeScript",
                             "JavaScript",
