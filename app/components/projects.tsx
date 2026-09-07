@@ -33,6 +33,7 @@ export default function Projects() {
                         }
                         tags={[
                             "C#",
+                            "ASP.NET",
                             "TypeScript",
                             "React",
                             "NextJS",
