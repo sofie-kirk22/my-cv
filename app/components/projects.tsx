@@ -12,6 +12,50 @@ export default function Projects() {
 
             <div className="grid gap-8 md:grid-cols-2">
 
+                {/* DEATH_MAHJONG WEBPAGE */}
+                <CardLink href={"https://death-mahjong.vercel.app/"}>
+                    <CardPreview
+                        type="gallery"
+                        images={[
+                            "/my-cv/Death_Mahjong_FrontPage.png",
+                            "/my-cv/Death_Mahjong_Lobby.png",
+                            "/my-cv/Death_Mahjong_GamePage.png",
+                            "/my-cv/Death_Mahjong_EndPage.png",
+                            "/my-cv/Death_Mahjong_Profile.png",
+                            "/my-cv/Death_Mahjong_Statistics.png"
+                        ]}
+                        alt="Death Mahjong gameplay screenshots"
+                    />
+                    <CardBody
+                        title={"Death Mahjong – Full Stack Implementation"}
+                        description={
+                            "Online multiplayer drinking game inspired by Solitaire Mahjong. Players join a shared room, take turns drawing available Mahjong tiles, and receive sips based on tile value and how many times they personally have drawn the same tile."
+                        }
+                        tags={[
+                            "C#",
+                            "TypeScript",
+                            "React",
+                            "NextJS",
+                            "Tailwind",
+                            "API Integration",
+                            "PostgreSQL",
+                            "Neon",
+                            "Railway",
+                            "Vercel"
+                        ]}
+                        ctas={[
+                            {
+                                label: "Visit Webpage",
+                                href: "https://death-mahjong.vercel.app/",
+                            },
+                            {
+                                label: "Visit GitHub",
+                                href: "https://github.com/sofie-kirk22/death-mahjong/",
+                            }
+                        ]}
+                    />
+                </CardLink>
+
                 {/* FIGMA PROTOTYPE */}
                 <CardLink href={"https://www.figma.com/proto/rxt5m7OykqTLItxoOuWfyQ/MatchMuse?node-id=0-1&t=jv2a5MyN4Q3FtVhp-1"}>
                     <CardPreview
@@ -69,8 +113,8 @@ export default function Projects() {
                                 href: "https://match-muse-next-c652.vercel.app/",
                             },
                             {
-                                label:"Visit GitHub",
-                                href:"https://github.com/sofie-kirk22/MatchMuse-next/",
+                                label: "Visit GitHub",
+                                href: "https://github.com/sofie-kirk22/MatchMuse-next/",
                             }
                         ]}
                     />
